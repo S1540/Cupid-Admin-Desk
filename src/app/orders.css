@@ -1,0 +1,9 @@
+:root[data-theme="light"] .order-status.success { color: #16734a; }
+:root[data-theme="light"] .order-status.pending { color: #896018; }
+:root[data-theme="light"] .order-status.attention { color: #b43d3d; }
+:root[data-theme="light"] .order-status.transit { color: #3269a6; }
+.order-details { animation: detail-enter 180ms ease-out; }
+@keyframes detail-enter { from { transform: translateX(24px); opacity: .5; } to { transform: translateX(0); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .order-details { animation: none; } }
+:root[data-theme="light"] .calendar-grid button.selected { color: #fff; }
+
